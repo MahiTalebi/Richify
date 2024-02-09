@@ -13,10 +13,10 @@ function DarkSwitcher() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <nav className="h-fit w-fit relative">
+    <nav className="h-fit bg-cover bg-center w-fit">
       <button
         onClick={handle}
-        className="bg-black-750 opacity-65 p-2 rounded-full flex gap-2 absolute bottom-full left-6 "
+        className="bg-black-750 opacity-65 p-2 rounded-full flex gap-2 translate-x-6 translate-y-2 "
       >
         <i class="bx bxs-sun text-slate-100 dark:text-slate-950 "></i>
         <i class="bx bxs-moon dark:text-slate-100"></i>
