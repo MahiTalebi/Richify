@@ -5,7 +5,7 @@ import background from "../Image/background.jpg";
 function HomeHeader(props) {
   let Nav = useNavigate();
   const handleLogout = () => {
-    Nav("/");
+    Nav("/richify");
   };
   return (
     <div
