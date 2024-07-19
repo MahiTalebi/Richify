@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import background from "../assets/image/background.jpg";
-import DarkSwitcher from "../DarkSwitcher";
+import DarkSwitcher from "./DarkSwitcher";
 
 function HomeHeader(props) {
   let Nav = useNavigate();
