@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
+import background from "../assets/image/background.jpg";
 import DarkSwitcher from "../DarkSwitcher";
-import background from "../Image/background.jpg";
 
 function HomeHeader(props) {
   let Nav = useNavigate();
   const handleLogout = () => {
-    Nav("/richify");
+    Nav("/");
   };
   return (
     <div
